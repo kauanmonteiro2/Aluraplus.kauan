@@ -44,7 +44,8 @@ body{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     padding: 1em;
-    color: var(--branco-principal)
+    color: var(--branco-principal);
+    margin:1em 0;
 }
 
 .container__aviso{
@@ -55,4 +56,50 @@ body{
     .container__titulo{
     font-size: 28px;
     font-weight: 700;
+    }
+
+
+    .container__imagem{
+        margin: 1em 0;
+    }
+
+
+    .container__caixa{
+        margin:0 10em;
+    }
+
+
+    .secundario{
+        width: 80%;
+    }
+
+
+    .descrição__titulo{
+        font-weight: 700;
+        font-size: 48px;
+        color: var(--branco-principal);
+        margin-bottom: 0.1em;
+    }
+
+
+    .descrição__texto{
+        color: var(--cinza-secundario);
+    }
+
+
+    .secundario__botão{
+        display: inline-block;
+        margin-top: 1em;
+    }
+
+    .container__descrição{
+        padding: 2em;
+    }
+
+    .dispositivos{
+
+    }
+
+    .dispositivos__titulo{
+
     }
